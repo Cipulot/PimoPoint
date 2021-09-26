@@ -1,6 +1,8 @@
 # PimoTrack Extras
 
-This repository contains code and custom mounting hardware files for the Pimoroni Track Ball Breakout.
+This repository contains code and custom mounting hardware files for the [Pimoroni Trackball Breakout](https://shop.pimoroni.com/products/trackball-breakout).
+
+![Pimoroni on Planck](https://github.com/Cipulot/PimoPoint/blob/main/media/Pimoroni_on_Planck.jpg?raw=true)
 
 ## Firmware
 
@@ -34,6 +36,19 @@ Having `PIMORONI_TRACKBALL_ENABLE = yes` will automatically enable pointing devi
 
 ## Hardware
 
+The Pimoroni Trackball Breakout PCB is a small breakout board with exposed I²C pins and 4 mounting holes.
+
+Dimensional measurements:
+![Pimoroni on Planck](https://github.com/Cipulot/PimoPoint/blob/main/media/Mechanical_drawing.jpg?raw=true)
+
+Unfortunately, while being relatively small, the PCB is not small enough to be used in a 1U sized space.
+
+I've therefore designed an angled mounting bracket that can be used to mount the PCB in a 2U sized space.
+
+It uses 2 Cherry MX style switches, without top casing and glued stems, as mounting points.
+This allows for smaller and easier to print parts both with FDM and SLA printers, since smaller parts as the clips for plate clip-in would require high degree of accuracy.
+
+![SLA_print_mounting_sys](https://github.com/Cipulot/PimoPoint/blob/main/media/SLA_print_mounting_sys.jpg?raw=true)
 
 ### Trackball support w_ fix holes
 
@@ -45,3 +60,20 @@ Having `PIMORONI_TRACKBALL_ENABLE = yes` will automatically enable pointing devi
 
 ### Fabrication example
 
+Here's a collection of printed parts using SLA print method.
+
+Support w_ fix holes top view:
+![SLA_print_top](https://github.com/Cipulot/PimoPoint/blob/main/media/SLA_print_top.jpg?raw=true)
+
+Support w_ fix holes bot view:
+![SLA_print_bot](https://github.com/Cipulot/PimoPoint/blob/main/media/SLA_print_bot.jpg?raw=true)
+
+Support w_ fix holes with pin strip receptor:
+![SLA_print_pin_strip_receptor](https://github.com/Cipulot/PimoPoint/blob/main/media/SLA_print_pin_strip.jpg?raw=true)
+
+Planck with Trackball Breakout PCB mounted on support:
+<p float="left">
+  <img src="https://github.com/Cipulot/PimoPoint/blob/main/media/Module_mounted_front_view.jpg?raw=true" width="380" />
+  <img src="https://github.com/Cipulot/PimoPoint/blob/main/media/Module_mounted_top_view.jpg?raw=true" width="290" /> 
+  <img src="https://github.com/Cipulot/PimoPoint/blob/main/media/Module_mounted_profile_view.jpg?raw=true" width="200" />
+</p>
