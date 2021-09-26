@@ -74,6 +74,18 @@ Support w_ fix holes with pin strip receptor:
 Planck with Trackball Breakout PCB mounted on support:
 <p float="left">
   <img src="https://github.com/Cipulot/PimoPoint/blob/main/media/Module_mounted_front_view.jpg?raw=true" width="380" />
-  <img src="https://github.com/Cipulot/PimoPoint/blob/main/media/Module_mounted_top_view.jpg?raw=true" width="290" /> 
+  <img src="https://github.com/Cipulot/PimoPoint/blob/main/media/Module_mounted_top_view.jpg?raw=true" width="290" />
   <img src="https://github.com/Cipulot/PimoPoint/blob/main/media/Module_mounted_profile_view.jpg?raw=true" width="200" />
 </p>
+
+## Future features and improvements
+
+These are the things I'd like to improve in the future:
+
+* Create a new support for the Trackball Breakout with a different mounting system. This would allow for a more flexible and user friendly installation since it will not require the use of 2 "sacrificial" switches.
+
+  The actual design wouldn't require much changes to the model in use today but considerations must be made in order to make it printable by the average FDM and SLA printers. Generally available FDM printers are not as good as SLA printers and therefore the design would need to be adjusted to make it printable. Durability is another concern that will be investigated once early design is done.
+
+* Make a custom 1U sized space PCB, allowing for a more flexible use by the end user, since it will free up a 1U compared to today's standard 2U sized space.
+
+  The challenging part is the sourcing of raw materials and the design of the PCB. The actual PCB is quite easy to design, since space can be saved by removing the mounting holes and the exposed I²C pins can be swapped for small solder pads. The actual firmware onboard the MCU doesn't appear to be public. This means that it would need to be provided by the Pimoroni team or dumped in some way from a genuine Pimoroni device and later flashed to virgin MCUs.
