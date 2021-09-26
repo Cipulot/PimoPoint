@@ -37,5 +37,11 @@ Having `PIMORONI_TRACKBALL_ENABLE = yes` will automatically enable pointing devi
 
 ### Trackball support w_ fix holes
 
+![w_ fix holes](https://github.com/Cipulot/PimoPoint/blob/main/media/3D_Trackball_support_w__fix_holes.jpg?raw=true)
 
 ### Trackball support w_o fix holes
+
+![w_o fix holes](https://github.com/Cipulot/PimoPoint/blob/main/media/3D_Trackball_support_w_o_fix_holes.jpg?raw=true)
+
+### Fabrication example
+
