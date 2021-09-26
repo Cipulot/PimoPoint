@@ -82,6 +82,8 @@ Planck with Trackball Breakout PCB mounted on support:
 
 These are the things I'd like to improve in the future:
 
+* 3D model a replacement cover for the trackball, for further customization.
+
 * Create a new support for the Trackball Breakout with a different mounting system. This would allow for a more flexible and user friendly installation since it will not require the use of 2 "sacrificial" switches.
 
   The actual design wouldn't require much changes to the model in use today but considerations must be made in order to make it printable by the average FDM and SLA printers. Generally available FDM printers are not as good as SLA printers and therefore the design would need to be adjusted to make it printable. Durability is another concern that will be investigated once early design is done.
